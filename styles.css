@@ -10,6 +10,7 @@
 
 html {
     box-sizing: border-box;
+    background-color: var(--cream);
 }
 
 * {
@@ -18,15 +19,23 @@ html {
     padding: 0;
 }
 
+
+body {
+    margin: 0 auto;
+}
+
 main {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+
     margin: 0 auto;
-    padding: 5%;
-    max-width: 400px;
+    max-width: 600px;
     height: auto;
+    border-radius: 2px;
+    background-color: var(--white);
     border: 2px solid red;
+
 }
 
 img {
@@ -38,7 +47,7 @@ img {
 .info {
     display:flex;
     flex-direction: column;
-    margin-left: 5%;
+    border: 2px solid blue;
 }
 
 .info h1, #discounted  {
