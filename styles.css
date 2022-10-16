@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --dark-blue: hsl(212, 21%, 14%);
+    --gray-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5%;
+    max-width: 400px;
+    height: auto;
+    border: 2px solid red;
+}
+
+img {
+    background-size: contain;
+    width: 50%;
+    height: 50%;
+}
+
+.info {
+    display:flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.info h1, #discounted  {
+    font-family: "Fraunces", sans-serif;
+}
