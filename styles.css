@@ -18,8 +18,13 @@
 
 
 body {
-    margin: 0 auto;
+    margin: 0;
     background-color: var(--cream);
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 main {
@@ -116,4 +121,21 @@ img {
 .add-to-cart:hover {
     background-color: var(--dark-blue);
     cursor: pointer;
+}
+
+/** Footer **/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+footer p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--dark-cyan);
 }
