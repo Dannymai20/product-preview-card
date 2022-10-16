@@ -113,3 +113,7 @@ img {
    font-weight: bold;
 }
 
+.add-to-cart:hover {
+    background-color: var(--dark-blue);
+    cursor: pointer;
+}
